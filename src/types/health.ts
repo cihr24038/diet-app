@@ -8,5 +8,5 @@ export interface StepData {
 // ユーザーの運動・健康データ全体（拡張用）
 export interface HealthSummary {
   todaySteps: StepData;
-  targetSteps: number;  // 目標歩数（例: 8000歩）
+  targetSteps: number;  // 目標歩数
 }

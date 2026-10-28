@@ -1,4 +1,4 @@
-import { StepData } from '../types/health';
+import type { StepData } from '../types/health';
 
 // 端末がヘルスケア機能（HealthKit等）に対応しているか確認する関数
 export const isHealthKitAvailable = (): boolean => {
